@@ -32,7 +32,7 @@ app.use('/api/user', userApi);
 // })
 
 
-const MONGO_CONNECTION_STRING = 'UPDATE MONGODB CONNECTION STRING HERE'
+const MONGO_CONNECTION_STRING = 'mongodb+srv://gmonk:gmonk@cluster2.ejhxvzp.mongodb.net/?retryWrites=true&w=majority'
 
 mongoose.connect(MONGO_CONNECTION_STRING, { useNewUrlParser: true });
 const db = mongoose.connection;
